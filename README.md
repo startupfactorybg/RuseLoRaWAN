@@ -11,9 +11,11 @@
 | Feather  | RFM95  |
 | ----------- |:-------:|
 | ~6          | IO1      |
+
 _Таблица 1_
 
 ![](https://ttnstaticfile.blob.core.windows.net/media/django-summernote/2017-08-08/b132cae3-4101-4b65-94bf-06598e4177fc.png)
+
 _Фигура 1_
 
 
@@ -26,9 +28,11 @@ _Фигура 1_
 |Дължина на вълната|mm|345,6|
 |(A)Вертикално поляризиран излъчващ елемент (λ*0,25)*vf|mm|82,1|
 |(B)Радилани ребра (λ*0,28)*vf|mm|91,9|
+
 _Таблица 2_
 
 ![](https://m0ukd.com/static/calculators/Quarter_Wave_Ground_Plane/Quarter_Wave_Drawing.png)
+
 _Фигура 2_
 
 #### **3. Приготовление на средата**
