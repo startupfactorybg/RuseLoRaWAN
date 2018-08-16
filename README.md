@@ -6,11 +6,12 @@
 
 #### **Опрна документация**
  - [Какво е Arduino](https://www.arduino.cc/en/Main/Software)
+ - [Какво е Adafruit Feather 32u4 LoRa](https://www.adafruit.com/product/3078)
  - [Какво е TTN](https://www.thethingsnetwork.org/docs/)
- - [TTN начин за настройка на Feather 32u4](https://www.thethingsnetwork.org/labs/story/using-adafruit-feather-32u4-rfm95-as-an-ttn-node/step/introduction)
+ - [Как да свържем Adafruit Feather 32u4 LoRa с TTN](https://www.thethingsnetwork.org/labs/story/using-adafruit-feather-32u4-rfm95-as-an-ttn-node/step/introduction)
  - [Спецификация на ATMega32u4](http://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf)
  - [Калкулатор за 1/4 вълнови резонатор с вертикална поляризация](https://m0ukd.com/calculators/quarter-wave-ground-plane-antenna-calculator/)
- - [Изводи на Adafruit Feather 32u4](https://cdn-learn.adafruit.com/assets/assets/000/046/201/original/feather_32u4_LoRa_v1.3.pdf?1504806229)
+ - [Изводи на Adafruit Feather 32u4 LoRa](https://cdn-learn.adafruit.com/assets/assets/000/046/201/original/feather_32u4_LoRa_v1.3.pdf?1504806229)
  - [Сензор BMP280](https://www.adafruit.com/product/2651)
 
 #### **Описание**
