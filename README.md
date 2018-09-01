@@ -52,9 +52,9 @@ _Фигура 2_
 
 #### **Електрическа схема**
  - Модел на свързванене на компонентите на устройството.
-![](https://raw.githubusercontent.com/startupfactorybg/RuseLoRaWAN/master/Schematics/EMU_bb.png)
+![](https://raw.githubusercontent.com/startupfactorybg/RuseLoRaWAN/master/Schematics/EMU/EMU_bb.png)
  - Електрическа схема на устройството
-![](https://raw.githubusercontent.com/startupfactorybg/RuseLoRaWAN/master/Schematics/EMU_schem.png)
+![](https://raw.githubusercontent.com/startupfactorybg/RuseLoRaWAN/master/Schematics/EMU/EMU_schem.png)
  - Електрическа схема на Feather 32u4 LoRa
 ![](https://cdn-learn.adafruit.com/assets/assets/000/031/658/original/feather_schem.png?1460518302)
 
@@ -107,6 +107,11 @@ __static const u4_t DEVADDR__
  Battery (3) - Канал 3 в напрежение на батерията [V];
  GPS (4) - Канал 4, GPS кординати с карта.**
  - Частта от кода, която отговаря за изпращане на тези данни е се намира в [**основният програмен файл**](https://github.com/startupfactorybg/RuseLoRaWAN/blob/master/StartupFactoryEMU/StartupFactoryEMU/StartupFactoryEMU.ino) във функция __void do_send(osjob_t* j)__.
+
+#### **Картографиране на свързаността**
+ - Картографирането е важна стъпка в изграждането на една мрежа. Информацията, която носи този процес е свързана с това колко е силен сигнала в различните геогравски точни. С други дуими получаваме карта на силата на сигнала в рамките на обхвата на сутоветният гейт. Към момента TTN предлага [**пиложение**](https://play.google.com/store/apps/details?id=com.jpmeijers.ttnmapper&rdid=com.jpmeijers.ttnmapper), което след свързване то директно показва силата на сигнала.
+ - Процеса по картографиране е структориран по следният начин. Създаваме крайно устройство, което изпраща данни на равни интервали от време, на пример една минута. След получаване на данните от страна на гейта, те пристигат в приложението на мобилният телефон или таблет, с който ги визуализираме. Получените данни се комбинират в данните от GPS Модула в мобилното устройство телефон или таблет. Комбинираните данни се изпращат в централен сървар на TTN, където се съхраняват и използват от други поребители. Има вариант в, който устройството изпраща данни при подаден от нас сигнал, чрез натискане на бутон. В първият случай измерваме постоянно. Ако се движим с постоянна скорост, ще получим равномерна карта на покритието. Във вторият случай можем да измерваме силата в конкретни геогравски точки по заявка.
+ - Приложението, което следва да използваме за тази цел се намира [**тук**](https://play.google.com/store/apps/details?id=com.jpmeijers.ttnmapper&rdid=com.jpmeijers.ttnmapper). Името му е **TTN Mapper**.
 
 #### **Проби**
  - Пробите се извършват след предварително работещ LoRa Gate.
